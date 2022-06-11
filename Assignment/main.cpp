@@ -2,13 +2,14 @@
 #include "head.h"
 #define _CRT_SECURE_NO_WARNINGS
 
-// 코로나 확진자 성별, 연령별 현황
+// 코로나 확진자 성별, 연령별 현황 정보를 확인하는 프로그램
 
 struct people {
 	float infp; //확진자
 	float deap; //사망자
 	float fatp; //치사율
 };
+//구조체
 
 int main(void)
 {
@@ -16,7 +17,9 @@ int main(void)
 	//정보 열람
 	char age[40];
 	FILE *fp;
+	//파일 입출력
 	char *s;
+	//포인터
 
 	struct people p;
 
@@ -32,6 +35,8 @@ int main(void)
 	age_len[6] = 60;
 	age_len[7] = 70;
 	age_len[8] = 80;
+	
+	//배열
 
 	printf("코로나 확진자 연령별 현황(6.8 00시 기준, 단위 : 명)\n1. 0~9살\n");
 	for (int i = 1; i < 8; i++)
@@ -75,6 +80,7 @@ int main(void)
 		printf("사망자의 수를 입력하세요 :  ");
 		scanf_s("%d", &dea, sizeof(dea));
 		printf("치사율 : %.6f%%\n\n", fatality(inf, dea));
+		//함수 사용, 다중소스 파일
 
 		p.infp = inf;
 		p.deap = dea;
@@ -95,6 +101,7 @@ int main(void)
 	//여 확진자, 사망자 : 9,638,973 , 12,474 
 	int n1=8549227, n2=11831, n3=9638973, n4=12474;
 	int *ID[4] = { &n1, &n2, &n3, &n4 };
+	//포인터 활용
 
 	if (a1 == 1)
 	{
