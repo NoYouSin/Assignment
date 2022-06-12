@@ -1,20 +1,20 @@
 ﻿  main.cpp
-C:\Users\user\source\repos\Assignment\main.cpp(69,21): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(69,21): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(74,11): warning C4477: 'scanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'float *'입니다.
-C:\Users\user\source\repos\Assignment\main.cpp(74,23): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(74,23): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(76,11): warning C4477: 'scanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'float *'입니다.
-C:\Users\user\source\repos\Assignment\main.cpp(76,23): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(76,23): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(82,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
-C:\Users\user\source\repos\Assignment\main.cpp(82,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'double'입니다.
-C:\Users\user\source\repos\Assignment\main.cpp(92,21): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(92,21): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(103,22): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(103,22): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(106,115): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(106,111): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(111,115): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\source\repos\Assignment\main.cpp(111,111): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(75,21): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(75,21): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(80,23): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(80,23): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(82,23): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(82,23): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(83,50): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(83,45): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(88,26): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(88,21): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(99,21): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(99,21): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(111,22): warning C4474: 'scanf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(111,22): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(114,115): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(114,111): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(119,115): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\source\repos\Assignment\main.cpp(119,111): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Assignment.vcxproj -> C:\Users\user\source\repos\Assignment\x64\Debug\Assignment.exe

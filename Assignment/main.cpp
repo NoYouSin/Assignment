@@ -3,10 +3,11 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 // 코로나 확진자 성별, 연령별 현황 정보를 확인하는 프로그램
+//202201199 노유신
 
 struct people {
-	float infp; //확진자
-	float deap; //사망자
+	int infp; //확진자
+	int deap; //사망자
 	float fatp; //치사율
 };
 //구조체
@@ -67,8 +68,8 @@ int main(void)
 	printf("[%s]\n", age);
 
 	//치사율 계산
-	float inf;
-	float dea;
+	int inf;
+	int dea;
 	int aa;
 	printf("1. 치사율을 계산\n2. 종료하기\n번호를 입력하세요:  ");
 	scanf_s("%d", &aa, sizeof(aa));
